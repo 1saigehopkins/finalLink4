@@ -9,7 +9,7 @@
       $.getJSON("http://cooper-union-flickr-proxy.herokuapp.com/search?text=belly%20button&count=25", function(response){
         console.log(response);
 
-        $("#lakePic").append("<img src=" + response.photos.photo[24].sizes.large + "/>");
+        $("#bellyPic").append("<img src=" + response.photos.photo[24].sizes.large + "/>");
 //        $("#pc").append("<img src=" + response.photos.photo[2].sizes.large + "/>");
 
       });
@@ -43,7 +43,7 @@
         align-items: center;
       }
 
-      #lakePic {
+      #bellyPic {
         margin-top: 50px;
       }
 
@@ -64,7 +64,7 @@
   width:300px;
 }
 
-#lakePic img {
+#bellyPic img {
   width: 250px;
 }
 
@@ -78,7 +78,7 @@
       <p> button:</p>
     </div>
     <!-- <div id="pc"></div>  //-->
-    <div id="lakePic"></div>
+    <a href="http://1saigehopkins.github.io/Final"><div id="bellyPic"></div></a>
     <div id="outtro">
       <p>wet pop</p>
     </div>
